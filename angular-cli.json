@@ -1,0 +1,84 @@
+{
+  "project": {
+    "version": "1.0.0-beta.28.3",
+    "name": "steepmind"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.json",
+      "prefix": "app",
+      "styles": [
+        "styles.css",
+        "./assets/css/styles2.css"
+      ],
+      "scripts": [
+        "./assets/js/media.js",
+        "./assets/js/NLPortal.js",
+        "./assets/js/refresh.min.js",
+        "./assets/js/jquery.min.js",
+        "./assets/js/jquery-ui.min.js",
+        "./assets/js/bootstrap.min.js",
+        "./assets/js/jquery.stickytabs.js",
+        "./assets/js/jquery.rwdImageMaps.min.js",
+        "./assets/js/ns-scripts.js",
+        "./assets/js/baynote.js",
+        "./assets/js/plugins.min.js",
+        "./assets/js/jquery.mousewheel.min.js",
+        "./assets/js/jquery.smoothdivscroll-1.3-min.js",
+        "./assets/js/jquery.prettyPhoto.js",
+        "./assets/js/init.js"
+      ],
+      "environments": {
+        "source": "environments/environment.ts",
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "files": "src/**/*.ts",
+      "project": "src/tsconfig.json"
+    },
+    {
+      "files": "e2e/**/*.ts",
+      "project": "e2e/tsconfig.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "prefixInterfaces": false,
+    "inline": {
+      "style": false,
+      "template": false
+    },
+    "spec": {
+      "class": false,
+      "component": true,
+      "directive": true,
+      "module": false,
+      "pipe": true,
+      "service": true
+    }
+  }
+}
