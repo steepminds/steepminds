@@ -8452,7 +8452,6 @@ a.anchor { display: block; position: relative; top: -126px; }
 .btn-link:after { font-family: 'FontAwesome'; content: "\f105"; padding-left: 5px; }
 
 .learnmore { color: #00b5ef; }
-.learnmore:after { font-family: 'FontAwesome'; content: "\f105"; padding-left: 5px; }
 
 /* button corners */
 .btn-square { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }

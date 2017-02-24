@@ -7,10 +7,12 @@ import { ParkingSpaceDetectionComponent } from './parking-space-detection/index'
 import { AudiDrivingCupComponent } from './audi-driving-cup/index';
 import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
+import { ContactComponent } from './contact/index';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'team', component: TeamComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'point-of-sale', component: PointOfSaleComponent },
   { path: 'parking-space-detection', component: ParkingSpaceDetectionComponent },
   { path: 'audi-driving-cup', component: AudiDrivingCupComponent },
