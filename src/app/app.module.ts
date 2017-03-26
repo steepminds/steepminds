@@ -16,6 +16,7 @@ import { PageNotFoundComponent } from './page-not-found/index';
 import { AudiDrivingCupComponent } from './audi-driving-cup/index';
 import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
+import { RdfAnalyzerComponent } from './rdf-analyzer/index';
 
 
 
@@ -29,7 +30,8 @@ import { PointOfSaleComponent } from './point-of-sale/index';
     PageNotFoundComponent,
     AudiDrivingCupComponent,
     TeamComponent,
-    PointOfSaleComponent
+    PointOfSaleComponent,
+    RdfAnalyzerComponent
   ],
   imports: [
     BrowserModule,
