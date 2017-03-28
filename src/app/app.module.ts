@@ -8,28 +8,22 @@ import { AppRoutingModule } from './app-routing.module';
 
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { AppComponent } from './app.component';
-import { ParkingSpaceDetectionComponent } from './parking-space-detection/parking-space-detection.component';
 import { HeaderComponent } from './header/header.component';
 import { IndexComponent } from './index/index.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/index';
-import { AudiDrivingCupComponent } from './audi-driving-cup/index';
-import { TeamComponent } from './team/index';
-import { PointOfSaleComponent } from './point-of-sale/index';
+import { TopBarComponent } from './top-bar/index';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParkingSpaceDetectionComponent,
     HeaderComponent,
     IndexComponent,
     FooterComponent,
-    PageNotFoundComponent,
-    AudiDrivingCupComponent,
-    TeamComponent,
-    PointOfSaleComponent
+    TopBarComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

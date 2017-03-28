@@ -3,17 +3,9 @@ import { RouterModule, Routes }  from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/index';
 import { HeaderComponent } from './header/index';
 import { IndexComponent } from './index/index';
-import { ParkingSpaceDetectionComponent } from './parking-space-detection/index';
-import { AudiDrivingCupComponent } from './audi-driving-cup/index';
-import { TeamComponent } from './team/index';
-import { PointOfSaleComponent } from './point-of-sale/index';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
-  { path: 'team', component: TeamComponent },
-  { path: 'point-of-sale', component: PointOfSaleComponent },
-  { path: 'parking-space-detection', component: ParkingSpaceDetectionComponent },
-  { path: 'audi-driving-cup', component: AudiDrivingCupComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 @NgModule({

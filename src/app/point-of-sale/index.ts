@@ -1,1 +1,0 @@
-export * from './point-of-sale.component'
