@@ -1,0 +1,8 @@
+To run the project on github, follow these steps.
+
+1.) make your changes to the project.
+2.) delete the dist folder
+3.) delete the gh-pages branch from the github repo of this project
+4.) use this command to launch on github - ng gh-pages:deploy --base-href /
+5.) go to settings of github and add custom domain as steepminds.com. 
+
