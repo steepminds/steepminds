@@ -18,8 +18,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "./assets/css/styles2.css"
+        "styles.css"
       ],
       "scripts": [
         "./assets/js/media.js",
@@ -38,8 +37,8 @@
         "./assets/js/jquery.prettyPhoto.js",
         "./assets/js/init.js"
       ],
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
