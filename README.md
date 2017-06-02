@@ -34,7 +34,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 Run `ng github-pages:deploy` to deploy to GitHub Pages.
 
-Run `ng github-pages:deploy --base-href=/ `to deploy to GitHub Pages.
+Run `ng github-pages:deploy --base-href / `to deploy to GitHub Pages.
 
 ## Further help
 
