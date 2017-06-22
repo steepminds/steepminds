@@ -17,6 +17,7 @@ import { AudiDrivingCupComponent } from './audi-driving-cup/index';
 import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
 import { RdfAnalyzerComponent } from './rdf-analyzer/index';
+import { Freihack16Component } from './freihack16/index';
 
 
 
@@ -31,7 +32,8 @@ import { RdfAnalyzerComponent } from './rdf-analyzer/index';
     AudiDrivingCupComponent,
     TeamComponent,
     PointOfSaleComponent,
-    RdfAnalyzerComponent
+    RdfAnalyzerComponent,
+    Freihack16Component
   ],
   imports: [
     BrowserModule,

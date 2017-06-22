@@ -8,11 +8,13 @@ import { AudiDrivingCupComponent } from './audi-driving-cup/index';
 import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
 import { RdfAnalyzerComponent } from './rdf-analyzer/index';
+import { Freihack16Component } from './freihack16/index';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'rdf-analyzer', component: RdfAnalyzerComponent },
   { path: 'team', component: TeamComponent },
+  { path: 'freihack16', component: Freihack16Component },
   { path: 'point-of-sale', component: PointOfSaleComponent },
   { path: 'parking-space-detection', component: ParkingSpaceDetectionComponent },
   { path: 'audi-driving-cup', component: AudiDrivingCupComponent },
