@@ -7903,7 +7903,7 @@ p a:hover, li a:hover { color: #008ebc; }
 .list-unstyled a { color: inherit; }
 
 /* Headings */
-h1, .h1 { font-size: 70px; font-family: 'Proxima Nova', arial-black, sans-serif; font-weight: 800; line-height: 1; text-transform: uppercase; color: inherit; margin-bottom: 1rem; }
+h1, .h1 { font-size: 60px; font-family: 'Proxima Nova', arial-black, sans-serif; font-weight: 800; line-height: 1; text-transform: uppercase; color: inherit; margin-bottom: 1rem; }
 h1 a, h1 a:hover, .h1 a, .h1 a:hover { color: inherit; text-transform: none; }
 
 h1 small { font-size: 40px; color: inherit; font-family: 'Proxima Nova', sans-serif; font-weight: 300; text-transform: none; display: block; }
@@ -8110,6 +8110,7 @@ select::-ms-expand { display: none; }
 .jumbotron, .hero, .banner { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: center center; background-repeat: no-repeat; display: table; width: 100%; color: #ffffff; text-align: left; border-bottom: 5px solid #1c2127; text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6); position: relative; overflow: hidden; }
 .jumbotron .inner, .hero .inner, .banner .inner { display: table-cell; vertical-align: middle; }
 .jumbotron .inner .left, .hero .inner .left, .banner .inner .left { width: 75%; }
+.jumbotron .inner .full-left, .hero .inner .full-left, .banner .inner .full-left { width: 100%; }
 .jumbotron .inner .right, .hero .inner .right, .banner .inner .right { width: 25%; max-width: 300px; }
 .jumbotron .overlay, .hero .overlay, .banner .overlay { display: table; height: 100%; min-height: 100%; vertical-align: middle; background-color: rgba(0, 0, 0, 0.7); background-size: 100vw; position: absolute; top: 0; width: 100vw; margin-left: 60%; }
 .jumbotron .overlay .inner, .hero .overlay .inner, .banner .overlay .inner { display: table-cell; vertical-align: middle; padding: 20px; }
