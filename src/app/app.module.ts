@@ -18,7 +18,8 @@ import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
 import { RdfAnalyzerComponent } from './rdf-analyzer/index';
 import { Freihack16Component } from './freihack16/index';
-
+import { CarouselComponent } from './carousel/index';
+import { MainComponent } from './main/index';
 
 
 @NgModule({
@@ -33,7 +34,9 @@ import { Freihack16Component } from './freihack16/index';
     TeamComponent,
     PointOfSaleComponent,
     RdfAnalyzerComponent,
-    Freihack16Component
+    Freihack16Component,
+    CarouselComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

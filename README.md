@@ -32,9 +32,37 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to GitHub Pages
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+https://github.com/angular-buch/angular-cli-ghpages 
 
-Run `ng github-pages:deploy --base-href / `to deploy to GitHub Pages.
+Usage:
+
+Usage:
+
+```bash
+ng build --prod --base-href "https://USERNAME.github.io/REPOSITORY_NAME/"
+angular-cli-ghpages [OPTIONS]
+```
+
+or
+
+```bash
+ng build --prod --base-href "/REPOSITORY_NAME/"
+angular-cli-ghpages [OPTIONS]
+```
+
+or (`<base href="">` stays untouched)
+
+```bash
+ng build --prod
+angular-cli-ghpages [OPTIONS]
+```
+
+there is also a shorter `ngh` command available
+
+```bash
+ng build --prod --base-href "https://USERNAME.github.io/REPOSITORY/"
+ngh [OPTIONS]
+```
 
 ## Further help
 
