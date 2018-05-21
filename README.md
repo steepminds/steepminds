@@ -13,7 +13,7 @@ Follow these steps to deploy site onto gh-pages.
 5. Run `angular-cli-ghpages [OPTIONS]` command to upload this website to github pages. This will deploy the website on `https://steepminds.github.io/steepminds`.
 6. Now go to settings of this github repository and under the `GitHub Pages` section. Fill the custom domain textbox value as `steepminds.com` and save.
 
-Now you should be able to access the website on `steepminds.com`.
+Now you should be able to access the website on `steepminds.com`. The changes will take some time to take place. Be patient.
 
 **Important Points:**
 1. Make sure that our master branch always has a file named `CNAME` with text `steepminds.com` inside it.
