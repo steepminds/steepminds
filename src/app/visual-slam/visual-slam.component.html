@@ -1,0 +1,74 @@
+<header-template></header-template>
+
+
+    <div class="hero background" style="background-image: url('../assets/images/visual-slam_bg.png')">
+        <div class="inner">
+            <div class="container">
+                <div class="full-left">
+                    <h1>Deeply Trained Network for Visual Slam</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Title Section
+        ================================================== -->
+    <!--<section data-linkcontainer="lt_region" data-tracklinktext="region3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="pageTitle">Detecting Parking Space through Computer Vision</h2>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+    <div class="container">
+        <hr>
+    </div>
+    
+    <!-- Intro Section
+        ================================================== -->
+    <div class="section" data-linkcontainer="lt_region" data-tracklinktext="region4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>
+                        Simultaneous localization and mapping (SLAM) forms the backbone of robot navigation. In this project, we relied only on visual information for SLAM. Previously, researchers had primarilly relied on hand crafted features for this task. Inspired by advancements in Deep Learning, we turned towards deeply learned feautres for place recognition. We took a pretrained network for place classification i.e. Places205, converted it to a Siamese network and finedtuned it for the task at hand. The below shows the two network architecutrs, we experimented with.
+                        </p>
+                                            <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <img src="../assets/images/visual-slam-network.png" height="600" width="600"/>
+                        </div>
+                    </div>
+                    <br/>
+                        <p>
+                        The end result was such that given two images, our trained network output similairty score i.e. classifying images of being the same place or of a different place. We finetuned the network on the Nordland train dataset. Figure <b>a</b> shows the image given to the network, while Figure <b>b</b>, <b>c</b> and <b>d</b> show the best matches according to the trained network for the query image a.
+                        </p>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-3">
+                            <img src="../assets/images/visual-slam.png" height="500" width="500"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <p>
+                        <i>
+                        This work was done at <a href="http://ais.informatik.uni-freiburg.de">AIS Freiburg</a>, and culminated in a workshop paper at <a href="https://roboticvision.atlassian.net/wiki/spaces/PUB/pages/41320632">RSS 2016.</a>
+                    </i>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <hr>
+    </div>
+    
+    <hr>
+    
+
+
+<footer-template></footer-template>

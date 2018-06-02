@@ -4,6 +4,8 @@ import { PageNotFoundComponent } from './page-not-found/index';
 import { HeaderComponent } from './header/index';
 import { IndexComponent } from './index/index';
 import { ParkingSpaceDetectionComponent } from './parking-space-detection/index';
+import { VisualSlamComponent } from './visual-slam/index';
+import { L2LComponent } from './l2l/index';
 import { AudiDrivingCupComponent } from './audi-driving-cup/index';
 import { TeamComponent } from './team/index';
 import { PointOfSaleComponent } from './point-of-sale/index';
@@ -17,6 +19,8 @@ const appRoutes: Routes = [
   { path: 'freihack16', component: Freihack16Component },
   { path: 'point-of-sale', component: PointOfSaleComponent },
   { path: 'parking-space-detection', component: ParkingSpaceDetectionComponent },
+  { path: 'visual-slam', component: VisualSlamComponent },
+  { path: 'l2l', component: L2LComponent },
   { path: 'audi-driving-cup', component: AudiDrivingCupComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
