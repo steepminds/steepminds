@@ -1,0 +1,88 @@
+<header-template></header-template>
+
+
+    <div class="hero background" style="background-image: url('../assets/images/l2l_cover.png')">
+        <div class="inner">
+            <div class="container">
+                <div class="full-left">
+                    <h1>Learning to Optimize Deep Neural Networks</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Title Section
+        ================================================== -->
+    <!--<section data-linkcontainer="lt_region" data-tracklinktext="region3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="pageTitle">Detecting Parking Space through Computer Vision</h2>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+    <div class="container">
+        <hr>
+    </div>
+    
+    <!-- Intro Section
+        ================================================== -->
+    <div class="section" data-linkcontainer="lt_region" data-tracklinktext="region4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>
+                        Deep learning relies on hand crafted optimizers i.e. Adam, RMSProp, for finding the minima. Inspired by success of learned features in Computer Vision via Deep Learning, we looked in the direction of learning a meta optimizer. The learned meta optimizer, a small neural network in our case, then trains other neural networks. Our research work culminated in two distinct approaches. <i>Learning to Optimize with Normalized Inputs</i>, and <i>Mutli Scale Adam</i>. For both of these approaches the underlying leanring algorithm flow is the same and is give by the following figure. Where <img src="../assets/images/l2l-om.png" width="30" /> is the meta optimizer, <img src="../assets/images/l2l-o.png" width="16" style="position:relative; top:-2px;" /> the hand crafted optimizer i.e. Adam, <img src="../assets/images/l2l-w.png" width="20" style="position:relative; top:-4px;"/> the parameters of the meta optimizer,<img src="../assets/images/l2l-x.png" width="20" style="position:relative; top:-4px;"/> the parameters of the problem network, <img src="../assets/images/l2l-l.png" width="13" style="position:relative; top:-2px;"/> the loss of the problem network.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <img src="../assets/images/l2l-algo.png" height="350" width="600"/>
+                        </div>
+                    </div>
+
+                    <p>
+                        <b> A) Learning to Optimize with Normalized Inputs: </b>
+                            In this method we keep track of the previously seen gradients, whether in the form of the raw gradients or moving averages. We then normalize this information and use it as input for the meta optimizer. We normalized the inputs as it makes the meta optimizer impervious to the scale of the gradients and thus making the learning process much more robust. The meta optimizer is then trained with this normalized input to output a suiteable gradient step. Our trained optimizer beats Adam and RmsProp on the network it was trained on and showed competitive performance on perviously unseen networks.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <img src="../assets/images/l2l-norm.png" height="300" width="700"/>
+                        </div>
+                    </div>
+                    <p>
+                        The left figure shows performance of learned optimizer with different time scales k and ranges of time scales, where as the right one shows performance against Adam and RmsProp. We see that the learned optimizer outperforms both Adam and RmsProp.
+                    </p>
+                    <p>
+                        <b> B) Multi-scale Adam:</b>
+                            As Adam relies on normalized inputs as well, it can also lend itself as a potential input for a meta optimizer. In this approach we use multiple Adams running at different timescales as inputs for the meta optimizer. The meta optimizer then learns to output a weighted average of these mutliple Adams as the gradient step. We use several different models as the meta optimizer i.e. linear weighted averate, RNN; and compare the performance. We notice that the meta optimizer learns to incorporate information from different timescales quite well and manages to outperform the best Adam running at a single time scale in various cases. Below figures shows the performance of the leanred optimizer vs Adam with two different learning rates.
+                        </p>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <img src="../assets/images/l2l-adam.png" height="300" width="700"/>
+                        </div>
+                    </div>
+                        
+                    <br/>
+                    <p>
+                        <i>
+                        This work was done at <a href="http://ml.informatik.uni-freiburg.de">Machine Learning Lab, Freiburg</a>.
+                    </i>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <hr>
+    </div>
+    
+    <hr>
+    
+
+
+<footer-template></footer-template>

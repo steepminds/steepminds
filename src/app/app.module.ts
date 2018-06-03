@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { AppComponent } from './app.component';
 import { ParkingSpaceDetectionComponent } from './parking-space-detection/parking-space-detection.component';
+import { VisualSlamComponent } from './visual-slam/visual-slam.component';
+import { L2LComponent } from './l2l/l2l.component';
 import { HeaderComponent } from './header/header.component';
 import { IndexComponent } from './index/index.component';
 import { FooterComponent } from './footer/footer.component';
@@ -26,6 +28,8 @@ import { MainComponent } from './main/index';
   declarations: [
     AppComponent,
     ParkingSpaceDetectionComponent,
+    VisualSlamComponent,
+    L2LComponent,
     HeaderComponent,
     IndexComponent,
     FooterComponent,
